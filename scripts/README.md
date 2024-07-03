@@ -13,7 +13,7 @@
 # Data preprocessing Scripts
 ## DBD_identification.py
 - This script identifies the DNA binding domains (DBDs) in each FASTA file for the TFs via local search of downloaded alignment files and/or UniProt search based on specified keywords. It outputs the locations of the DBDs and a .txt file taht contains names of any TFs that had no DBD identified. 
-- This script uses python (PYTHON VERSION)
+- This script uses python
 - Run the **downloadZipfile.py** script to download the neccesary file.
 - You can then successfully run this script to identify the DBDs.
 
@@ -34,3 +34,9 @@
 - This script uses python
 - Run this script given you have already ran the **AD_identification.py** script.
 - This script predicts the AD regions of the TFs with annotated ADs against only the Taz2 domain of the p300 protein
+
+# AlphaFold Structrual Predictions
+## submit_alphapulldown_alignments.sh
+- This scripts automates the submission of each TF for AlphaPulldown to produce a MSA
+- This script uses Bash Shell scripting
+- You must have all of the TF FASTA sequences in one directory in order for this script to run successfully. 
