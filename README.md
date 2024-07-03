@@ -9,7 +9,7 @@ Protein-ligand complexes are crucial for cellular functions, and understanding t
 ### Objectives
 <!-- Placeholder: Insert detailed method description here -->
 
-## Tools and Technologies
+### Tools and Technologies
 <!-- Placeholder: Insert detailed method description here -->
 
 ## Method
