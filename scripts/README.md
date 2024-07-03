@@ -23,7 +23,7 @@
 - Run the **downloadADdata.py** script to download the necessary data in the same same directory as the AD_identification.py script.
 - You can then successfully run this script to identify the ADs. 
 
-# AlphaFold Structrual Predictions
+# AlphaFold Structrual Predictions Scripts
 ## Customfile.py
 - This script creates the .txt file needed to run AlphaFold2 predictions on all of the TFs on the command line interfact (CLI).
 - This script uses python
