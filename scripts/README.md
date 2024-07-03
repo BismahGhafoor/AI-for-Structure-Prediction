@@ -32,5 +32,5 @@
 ## AD_Customfile.py
 - This script creates the .txt file needed to run AlphaFold2 predictions on the command line interfact (CLI).
 - This script uses python
-- Run this script given you have already ran the **DBD_identification.py** script.
+- Run this script given you have already ran the **AD_identification.py** script.
 - This script predicts the AD regions of the TFs with annotated ADs against only the Taz2 domain of the p300 protein
