@@ -46,7 +46,7 @@ Protein-ligand complexes are crucial for cellular functions, and understanding t
 ## Project Structure
 
     data/: Contains raw and processed data files.
-    scripts/: Python scripts for downloading data, identifying domains, and other utilities.
+    scripts/: Python and Bash Shell scripts for downloading data, identifying domains, and other utilities.
     models/: Saved models and predictions.
     notebooks/: Jupyter notebooks for analysis and visualization.
     results/: Output files and results from the analysis.
