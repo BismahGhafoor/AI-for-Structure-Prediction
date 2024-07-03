@@ -1,6 +1,6 @@
 # Data Collection Scripts
 ## downloadTFs.sh
-- This script downloads all the human transcription factors identified by Lambert _et al._, (2018). 
+- This script downloads all the human transcription factors (identified by Lambert _et al._, (2018)) FASTA sequences. 
 - For the script to work ensure you have downloaded the genenames of the transcription factors from this URL: https://humantfs.ccbr.utoronto.ca/download.php and save it in the same directory as the script.
 - The script can now be run.
 
