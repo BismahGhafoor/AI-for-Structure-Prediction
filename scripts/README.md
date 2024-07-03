@@ -23,8 +23,8 @@
 - Run the **downloadADdata.py** script to download the necessary data in the same same directory as the AD_identification.py script.
 - You can then successfully run this script to identify the ADs. 
 
-## customfile.py
+## Customfile.py
 - This script creates the .txt file needed to run AlphaFold2 predictions on the command line interfact (CLI).
 - This script uses python
-- Run this script given you had already ran the **DBD_identification.py** script.
+- Run this script given you have already ran the **DBD_identification.py** script.
 - After this script run the **filterCustomfile.py** script to filter any predictions that may be insignificant.
