@@ -23,6 +23,7 @@
 - Run the **downloadADdata.py** script to download the necessary data in the same same directory as the AD_identification.py script.
 - You can then successfully run this script to identify the ADs. 
 
+# AlphaFold Structrual Predictions
 ## Customfile.py
 - This script creates the .txt file needed to run AlphaFold2 predictions on all of the TFs on the command line interfact (CLI).
 - This script uses python
@@ -34,8 +35,7 @@
 - This script uses python
 - Run this script given you have already ran the **AD_identification.py** script.
 - This script predicts the AD regions of the TFs with annotated ADs against only the Taz2 domain of the p300 protein
-
-# AlphaFold Structrual Predictions
+  
 ## submit_alphapulldown_alignments.sh
 - This scripts automates the submission of each TF for AlphaPulldown to produce a MSA to the HPC.
 - This script uses Bash Shell scripting
