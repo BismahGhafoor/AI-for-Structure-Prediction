@@ -10,8 +10,15 @@
 - This script uses Bash Shell scripting
 - There are no requirements for this script to work, it can be run straight away. 
 
-## dbd_identification.py
-- This script identifies the DNA bidning domains (DBDs) in each FASTA file for the TFs via local search of downloaded alignment files and/or UniProt search based on specified keywords. It outputs the locations of the DBDs and a .txt file taht contains names of any TFs that had no DBD identified. 
+# Data preprocessing Scripts
+## DBD_identification.py
+- This script identifies the DNA binding domains (DBDs) in each FASTA file for the TFs via local search of downloaded alignment files and/or UniProt search based on specified keywords. It outputs the locations of the DBDs and a .txt file taht contains names of any TFs that had no DBD identified. 
 - This script uses python (PYTHON VERSION)
 - Run the **downloadZipfile.py** script to download the neccesary file.
-- You can then successfully run this script to identify the DBD.
+- You can then successfully run this script to identify the DBDs.
+
+## AD_identification.py
+- This script identifies the activation domains (ADs) in eaxh FASTA file for the TFs using data that has been downloaded from the Alerasool _et al._, (2022) study.
+- This script uses Python
+- Run the **downloadADdata.py** script to download the necessary data in the same same directory as the AD_identification.py script.
+- You can then successfully run this script to identify the ADs. 
