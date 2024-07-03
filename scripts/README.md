@@ -45,3 +45,8 @@
 - This scripts automates the submission of each TF (with an annotated AD) for AlphaPulldown to produce a MSA to the HPC.
 - This script uses Bash Shell scripting
 - You must have all of the TFs with annotated ADs FASTA sequences in one directory in order for this script to run successfully.
+
+## submit_alphafold_predictions.sh
+- This scripts automates the submission of the TF AlphaFold predictions to the HPC.
+- This script utilises Bash Shell scripting
+- You need to run the **submit_alphapulldown_alignments.sh** script prior to running this script.
