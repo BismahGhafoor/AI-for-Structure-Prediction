@@ -43,7 +43,7 @@ Protein-ligand complexes are crucial for cellular functions, and understanding t
 3. Ensure you have access to computational tools:
     - Follow the installation instructions for [AlphaFold2](https://github.com/deepmind/alphafold).
 
-Project Structure
+# Project Structure
 
     data/: Contains raw and processed data files.
     scripts/: Python scripts for downloading data, identifying domains, and other utilities.
@@ -51,7 +51,7 @@ Project Structure
     notebooks/: Jupyter notebooks for analysis and visualization.
     results/: Output files and results from the analysis.
 
-Acknowledgements
+# Acknowledgements
 
     Thanks to the developers of AlphaFold2.
     Thanks to the Professor Daniel Paneel (University of Leicester) for supporting this research.
