@@ -50,3 +50,8 @@
 - This scripts automates the submission of the TF AlphaFold predictions to the HPC.
 - This script utilises Bash Shell scripting
 - You need to run the **submit_alphapulldown_alignments.sh** script prior to running this script.
+
+## submit_alphafold_AD_predictions.sh
+- This scripts automates the submission of the TFs (with annotated ADs) AlphaFold predictions againt p300 core domain to the HPC.
+- This script utilises Bash Shell scripting
+- You need to run the **submit_alphapulldown_AD_alignments.sh** script prior to running this script. 
