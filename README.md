@@ -51,8 +51,7 @@ Protein-ligand complexes are crucial for cellular functions, and understanding t
 - results/: Output files and results from the analysis.
 
 ## Acknowledgements
-Thanks to the developers of AlphaFold2.
-Thanks to the Professor Daniel Panee (University of Leicester) for supporting this research.
+Thanks to the Professor Daniel Panne (University of Leicester) for supporting this research.
 
 ## Contact
 
