@@ -7,9 +7,9 @@ This repository contains the code and documentation for an MSc-level bioinformat
 Protein-ligand complexes are crucial for cellular functions, and understanding their structures is key to deciphering biological processes, drug discovery, and treating various diseases. This project leverages computational predictions, experimental data, and collaborative approaches to improve the accuracy of these models. Understanding how these interactions, particularly involving intrinsically disordered regions, drive gene expression remains a significant challenge in structural biology. This study utilises advanced artificial intelligence-driven tools, including AlphaFold2 and AlphaFold3, to explore the structural dynamics of p300, focusing on its interactions with 1,639 human transcription factors. We hypothesised that conformational changes in the TAZ2 domain of p300 upon transcription factor binding could allosterically activate its histone acetyltransferase activity. 
 
 ### Objectives
-(1) Conduct an initial screen of the 1,639 human TFs and determine which TF IDRs contain such ADs 
-(2) Predict TFs structure in complex with different domains of p300
-(3) Determine which TFs contain ADs that directly interact with the TAZ2 domain of p300 to allosterically activate the HAT enzyme by TAZ2 domain remodelling.
+1. Conduct an initial screen of the 1,639 human TFs and determine which TF IDRs contain such ADs
+2. Predict TFs structure in complex with different domains of p300
+3. Determine which TFs contain ADs that directly interact with the TAZ2 domain of p300 to allosterically activate the HAT enzyme by TAZ2 domain remodelling.
 
 ### Tools and Technologies
 Python
