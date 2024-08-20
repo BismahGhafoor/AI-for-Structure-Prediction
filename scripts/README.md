@@ -76,6 +76,7 @@
 - This uses Python
 - You need the AlphaFold2 models already generates and saved in a directory prior to running this script.
 
+# Identification of Novel ADs Scripts
 ## Novel_ADs.py
 - This script uses AlphaFold Missense and the AlphaFold2 model metric to analyse and extract novel activation domains.
 - This script uses Python.
