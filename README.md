@@ -12,9 +12,9 @@ Protein-ligand complexes are crucial for cellular functions, and understanding t
 3. Determine which TFs contain ADs that directly interact with the TAZ2 domain of p300 to allosterically activate the HAT enzyme by TAZ2 domain remodelling.
 
 ### Tools and Technologies
-Python
-Bash Shell Scripting
-High-Performance Computing
+- Python
+- Bash Shell Scripting
+- High-Performance Computing
 
 ## Method
 1. Data Collection
