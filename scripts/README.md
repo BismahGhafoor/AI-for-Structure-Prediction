@@ -60,3 +60,8 @@
 - This script generates theinteractive .ipynb file to present the significant AlphaFold2 models.
 - This script uses Python
 - You need to run the **submit_alphafold_predictions.sh** script prior to running this script.
+
+## LIS.py
+- This script runs the AlphaFold Multimer-Local Interaction Score Package.
+- This script uses Python
+- You need the AlphaFlold2 models already generated from the **submit_alphafold_predictions.sh** script.
