@@ -65,3 +65,13 @@
 - This script runs the AlphaFold Multimer-Local Interaction Score Package.
 - This script uses Python
 - You need the AlphaFlold2 models already generated from the **submit_alphafold_predictions.sh** script.
+
+## TAZ2_domain.py
+- This script analyses the terminal residues of the p300 TAZ2 domain of p300 for conformational changes.
+- This script uses Python
+- You need the AlphaFold2 models already generated.
+
+## ActiveSite_p300.py of
+- This script analyses teh terminal residues of the p300 HAT active site of p300 for conformational changes.
+- This uses Python
+- You need the AlphaFold2 models already generates and saved in a directory prior to running this script.
