@@ -4,16 +4,23 @@ This repository contains the code and documentation for an MSc-level bioinformat
 
 ## Project Overview
 
-Protein-ligand complexes are crucial for cellular functions, and understanding their structures is key to deciphering biological processes, drug discovery, and treating various diseases. This project leverages computational predictions, experimental data, and collaborative approaches to improve the accuracy of these models.
+Protein-ligand complexes are crucial for cellular functions, and understanding their structures is key to deciphering biological processes, drug discovery, and treating various diseases. This project leverages computational predictions, experimental data, and collaborative approaches to improve the accuracy of these models. Understanding how these interactions, particularly involving intrinsically disordered regions, drive gene expression remains a significant challenge in structural biology. This study utilises advanced artificial intelligence-driven tools, including AlphaFold2 and AlphaFold3, to explore the structural dynamics of p300, focusing on its interactions with 1,639 human transcription factors. We hypothesised that conformational changes in the TAZ2 domain of p300 upon transcription factor binding could allosterically activate its histone acetyltransferase activity. 
 
 ### Objectives
-<!-- Placeholder: Insert detailed method description here -->
+(1) Conduct an initial screen of the 1,639 human TFs and determine which TF IDRs contain such ADs 
+(2) Predict TFs structure in complex with different domains of p300
+(3) Determine which TFs contain ADs that directly interact with the TAZ2 domain of p300 to allosterically activate the HAT enzyme by TAZ2 domain remodelling.
 
 ### Tools and Technologies
-<!-- Placeholder: Insert detailed method description here -->
+Python
+Bash Shell Scripting
+High-Performance Computing
 
 ## Method
-<!-- Placeholder: Insert detailed method description here -->
+1. Data Collection
+2. Data Pre-pocessing
+3. AlphaFold2 Structural Predictions
+4. Identification of Novel ADs
 
 ## Getting Started
 
@@ -23,32 +30,8 @@ Protein-ligand complexes are crucial for cellular functions, and understanding t
 - Necessary computational tools (AlphaFold2)
 - High-performance computing resources
 
-### Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/BismahGhafoor/AI-for-Structure-Prediction.git
-    cd protein-complex-structure-prediction
-    ```
-
-2. Set up the environment:
-    ```bash
-    # Create a virtual environment
-    python3 -m venv venv
-    source venv/bin/activate
-
-    # Install required Python packages
-    pip install -r requirements.txt
-    ```
-
 3. Ensure you have access to computational tools:
     - Follow the installation instructions for [AlphaFold2](https://github.com/deepmind/alphafold).
-
-## Project Structure
-- data/: Contains raw and processed data files.
-- scripts/: Python and Bash Shell scripts for downloading data, identifying domains, and other utilities.
-- models/: Saved models and predictions.
-- notebooks/: Jupyter notebooks for analysis and visualization.
-- results/: Output files and results from the analysis.
 
 ## Acknowledgements
 Thanks to the Professor Daniel Panne (University of Leicester) for supporting this research.
