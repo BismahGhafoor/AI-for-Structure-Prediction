@@ -85,8 +85,8 @@ def compare_structures(pdb_file, segid, resid_range):
     # Store the RMSD result
     rmsd_results.append((os.path.basename(pdb_file), rmsd_value))
 
-    # Calculate distance between key residues (example: 1750 and 1800)
-    key_residue_pairs = [(1750, 1800), (1724, 1840)]
+    # Calculate distance between key residues 
+    key_residue_pairs = [(1724, 1840)]
     for resid1, resid2 in key_residue_pairs:
         atom1 = u.select_atoms(f"segid {segid} and resid {resid1} and name CA")
         atom2 = u.select_atoms(f"segid {segid} and resid {resid2} and name CA")
@@ -109,7 +109,7 @@ def compare_structures(pdb_file, segid, resid_range):
     contact_maps[os.path.basename(pdb_file)] = contact_map
 
 # Calculate reference distances and contact map
-ref_key_residue_pairs = [(1750, 1800), (1724, 1840)]
+ref_key_residue_pairs = [(1724,1840]
 reference_distances = []
 for resid1, resid2 in ref_key_residue_pairs:
     atom1 = reference_atoms.select_atoms(f"resid {resid1} and name CA")
