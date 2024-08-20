@@ -75,3 +75,8 @@
 - This script analyses teh terminal residues of the p300 HAT active site of p300 for conformational changes.
 - This uses Python
 - You need the AlphaFold2 models already generates and saved in a directory prior to running this script.
+
+## Novel_ADs.py
+- This script uses AlphaFold Missense and the AlphaFold2 model metric to analyse and extract novel activation domains.
+- This script uses Python.
+- Prior to this script you need to have the Alphafold2 models generated.
